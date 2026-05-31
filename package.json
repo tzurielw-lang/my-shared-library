@@ -1,0 +1,12 @@
+{
+  "name": "@mycompany/my-shared-library",
+  "version": "2.0.1",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://productdemo.jfrog.io/artifactory/api/npm/tw-npm-local/"
+  },
+  "description": "A shared utility library hosted on JFrog",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  }
+}
