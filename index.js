@@ -1,5 +1,5 @@
 function greet(name) {
-  return `Hello, ${name}! This message is coming directly from your JFrog library. Gusha31.5-2`;
+  return `Hello, ${name}! NEW TEST`;
 }
 
 function add(a, b) {
