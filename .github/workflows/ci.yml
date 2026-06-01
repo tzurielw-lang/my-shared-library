@@ -46,5 +46,8 @@ jobs:
           oidc-provider-name: github-oidc-tzur
           oidc-audience: jfrog-github-tzur
 
+      - name: Configure JFrog npm repositories
+        run: jf npm-config --repo-resolve=tw-npm-virtual --repo-deploy=tw-npm-local
+
       - name: Publish package
-        run: jfrog npm publish
+        run: jf npm publish
