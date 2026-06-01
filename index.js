@@ -1,5 +1,5 @@
 function greet(name) {
-  return `Hello, ${name}! NEW TEST`;
+  return `Hello, ${name}! testing oidc token`;
 }
 
 function add(a, b) {
