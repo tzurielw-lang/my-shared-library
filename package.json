@@ -1,6 +1,6 @@
 {
   "name": "@mycompany/my-shared-library",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://productdemo.jfrog.io/artifactory/api/npm/tw-npm-local/"
